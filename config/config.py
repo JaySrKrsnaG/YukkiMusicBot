@@ -178,7 +178,7 @@ PLAYLIST_IMG_URL = getenv(
 )
 
 GLOBAL_IMG_URL = getenv(
-    "GLOBAL_IMG_URL",
+    "https://telegra.ph/file/d4f4aec2da75853310a7e.png",
     "assets/Global.jpeg",
 )
 
