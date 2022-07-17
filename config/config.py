@@ -17,7 +17,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("18012197", ""))
+API_ID = int(getenv("18012197"))
 API_HASH = getenv("0f15e2ca58a4b4ad5ae286368cdbcec0")
 
 ## Get it from @Botfather in Telegram.
@@ -116,7 +116,7 @@ SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 # Cleanmode time after which bot will delete its old messages from chats
-CLEANMODE_DELETE_MINS = int(getenv("5")
+CLEANMODE_DELETE_MINS = int(getenv("5"))
 
 # Remember to give value in Seconds
 
